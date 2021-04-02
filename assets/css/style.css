@@ -1,0 +1,108 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    background-image: url(../../images/bg-pattern-top-desktop.svg), url(../../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: top, bottom;
+    background-position-x: left, right;
+}
+
+/*Estilos para la sección*/
+.contenedor {
+    padding: 8rem 0;
+    text-align: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h1 {
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    color: hsl(303, 10%, 53%);
+}
+
+.certificados {
+    margin-top: 4rem;
+}
+
+.calificado {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    background-color:hsl(300, 24%, 96%); 
+    border-radius: 1rem;
+}
+
+.calificado .estrellas {
+    color: sandybrown;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.calificado p {
+    margin-bottom: 0;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.perfiles {
+    margin-top: 4rem;
+}
+
+.perfiles .targeta {
+    background-color: hsl(300, 43%, 22%);
+    padding: 4rem 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.targeta .cabeza-targeta {
+    display: flex;
+    margin-bottom: 2.4rem;
+    align-items: center;
+    gap: 2.5rem;
+}
+.targeta .cabeza-targeta img{
+    border-radius: 100%;
+    width: 17%;
+}
+.targeta p {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    line-height: 1.7;
+}
+.targeta .cabeza-targeta p {
+    font-weight: 700;
+}
+.targeta .cabeza-targeta span {
+    display: block;
+    color:  hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+/*Atrribution*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
